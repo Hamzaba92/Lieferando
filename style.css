@@ -1,0 +1,351 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+
+.subheader{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    border-bottom: solid 3px orange;
+}
+
+.headericon{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: solid 2px black;
+    background-color: orange;
+    justify-content: center;
+    margin-left: 38px;
+    padding: 4px;
+}
+
+.headericon img{
+    display: flex;
+    align-content: center;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+}
+
+.headertext{
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+.headertext span{
+    color: orange;
+    font-family: 'Teko', sans-serif;
+    font-size: 58px;
+}
+
+
+.headertext p{
+    font-size: 48px;
+    font-family: 'Teko', sans-serif;
+    color: black;
+    margin-right: 38px;
+}
+
+.hoverlang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-family: 'Teko', sans-serif;
+    color: black;
+    margin-right: 38px;
+}
+
+.hoverlang a:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.hoverlang p:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.mainimg{
+  display: flex;
+
+}
+
+.mainimg img{
+   height: 520px;
+   object-fit: cover;
+   width: 100%;
+}
+
+.sidebar-right{
+    position: sticky;
+    width: 30%;
+    left: 70%;
+    bottom: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurantdescription{
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+    padding: 15px;
+    font-family: 'Teko', sans-serif;
+    
+}
+
+.restaurantdescription span{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.restaurantdescription p{
+    font-size: 32px;
+    margin: 0;
+
+}
+
+.review-row{
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+}
+
+.review-row span:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: orange;
+}
+
+.menu-section {
+    width: 70%;
+}
+
+
+.warenkorb img{
+    height: 110px;
+    display: flex;
+}
+
+
+.warenkorb-text{
+    text-align: center;
+}
+
+.warenkorb-text p{
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+}
+
+.warenkorb-text span{
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.selected-pizza{
+    min-height: 250px;
+    width: 65%;
+    border-radius: 10px;
+    border: solid 2px orange;
+    margin: 24px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selected-pizza:hover{
+    background-color: orange;
+}
+
+.space img{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.space img:hover{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.selected-pizza div{
+    font-size: 38px;
+    font-family: 'Teko', sans-serif;
+}
+
+.selected-pizza p{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+
+.selected-pizza span{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.shopping-cart-content{
+    position: fixed;
+    top: 124px;
+    right: 0px;
+    overflow-y: auto;
+    max-height: 60%;
+    width: 30%;
+}
+
+.Shopping-Cart-Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Teko', sans-serif;
+    border: solid 2px orange;
+    margin-top: 5px;
+
+}
+
+.Shopping-Cart-Card p{
+    margin: 0;
+    font-size: 26px;
+}
+
+.Shopping-Cart-Card span{
+    font-size: 30px;
+    margin: 0;
+}
+
+.Shopping-Cart-Card img{
+    height: 22px;
+
+}
+.Shopping-Cart-Card img:hover{
+    cursor: pointer;
+}
+
+.shopping-Cart-Card-row-plus-minus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 4px;
+}
+
+.empty-shopping-cart-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: orange;}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+    
+.d-none{
+    display: none;
+}
+
+.order-section-style{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;    
+}
+
+.order-section-style span{
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+}
+
+.order-section-style p{
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.shopping-cart-button-wrapper{
+    width: 30%;
+    position: sticky;
+    bottom: 14%;
+    left: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.shopping-cart-button-wrapper button{
+    height: 50px;
+    background-color: orange;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.shopping-cart-button-wrapper button:active{
+    background: rgb(202, 141, 27);
+}
+
+.deliverstyle{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.subtotalstyle{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.totalstyle{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    padding-left: 5px;
+    padding-right: 5px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TastyWave Delivery</title>
+    <link rel="icon" type="image/gif" href="./imgs/favicon_lieferando.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com" as="font">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&family=Ubuntu&display=swap" rel="stylesheet"/>
+    <script src="json_data.js"></script>
+    <script src="script.js"></script>
+    <script src="templates.js"></script>
+  </head>
+
+  <body onload="init()">
+    <header>
+      <div class="subheader">
+        <div class="headericon">
+          <img src="./imgs/headericon.png" />
+        </div>
+        <div class="headertext">
+          <span>TastyWave Delivery</span>
+          <div class="hoverlang">
+            <a>EN</a>|
+            <p>DE</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="mainimg menu-section">
+      <img src="./imgs/pizzaimg.jpeg" />
+    </section>
+
+    <section class="menu-section">
+      <div class="restaurantdescription">
+        <span>Pizza Shaku-Maku</span>
+        <p>Best Pizza in Town</p>
+      </div>
+      <div class="review-row">
+        <img src="./imgs/reviewstar.png" />
+        <img src="./imgs/reviewstar.png" />
+        <img src="./imgs/reviewstar.png" />
+        <img src="./imgs/reviewstar.png" />
+        <img src="./imgs/reviewstar.png" />
+        <span>1078 Reviews</span>
+      </div>
+    </section>
+
+    <section>
+      <div id="pizza_menu"></div>
+    </section>
+
+    <section class="sidebar-right">
+      <div id="empty_shopping_cart_content" class="empty-shopping-cart-content">
+      </div>
+
+      <div id="shopping_cart_content" class="shopping-cart-content"></div>
+    </section>
+
+    <div id="shopping_cart_button_wrapper" class="shopping-cart-button-wrapper"></div>
+
+  </body>
+</html>
